@@ -1,0 +1,6 @@
+node_modules
+.npm-cache
+tmp/chrome-cdp-profile
+.env
+npm-debug.log*
+.DS_Store

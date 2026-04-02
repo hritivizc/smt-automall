@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMT Automall | Quick Links</title>
+    <meta
+      name="description"
+      content="A dark, mobile-first quick links page for SMT Automall customers."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2305070b'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='Arial,sans-serif' font-size='28' font-weight='700' fill='%23f1ae45'%3ES%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="hero-stack">
+          <div class="logo-frame">
+            <img
+              class="brand-logo"
+              src="assets/smt-automall-logo.webp"
+              alt="SMT Automall logo"
+            />
+          </div>
+          <p class="eyebrow">SMT Automall</p>
+          <h1>Quick Connect</h1>
+          <p class="subtitle">
+            GitHub-ready social links, reviews, and discount access.
+          </p>
+        </div>
+
+        <div class="button-grid">
+          <a
+            class="link-card link-instagram"
+            href="https://www.instagram.com/arogyamyogasikar/?hl=en"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="link-icon" aria-hidden="true">IG</span>
+            <span class="link-copy">
+              <strong>Instagram</strong>
+              <span>Follow arrivals, offers, and daily updates.</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">&rsaquo;</span>
+          </a>
+          <a
+            class="link-card link-maps"
+            href="https://share.google/5bQwZY6gpG0tEnRzq"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="link-icon" aria-hidden="true">GM</span>
+            <span class="link-copy">
+              <strong>Google Review</strong>
+              <span>Rate your visit and help buyers find us.</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">&rsaquo;</span>
+          </a>
+          <a class="link-card link-discount" href="discount.html">
+            <span class="link-icon" aria-hidden="true">QR</span>
+            <span class="link-copy">
+              <strong>Discount Page</strong>
+              <span>Preview the counter approval screen.</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">&rsaquo;</span>
+          </a>
+        </div>
+
+        <div class="checks">
+          <label class="check-item">
+            <input id="doneInstagram" type="checkbox" />
+            <span>I followed SMT Automall on Instagram.</span>
+          </label>
+          <label class="check-item">
+            <input id="doneReview" type="checkbox" />
+            <span>I left a review on Google Maps.</span>
+          </label>
+        </div>
+
+        <button id="continueBtn" class="btn btn-continue" type="button" disabled>
+          Complete 2 steps to continue
+        </button>
+
+        <p id="progressNote" class="note">Progress: 0/2 completed.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
